@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args) {
         //Стоимость билета
-        int ticket_price = 13676;
+        int ticketPrice = 13676;
         //Количество рублей для одной бонусной мили
-        int bonus_price = 20;
+        int bonusPrice = 20;
 
-        int bonus_count = ticket_price / bonus_price;
+        int bonusCount = ticketPrice / bonusPrice;
 
-        System.out.println("Вым начислен бонус в " + bonus_count + " миль.");
+        System.out.println("Вым начислен бонус в " + bonusCount + " миль.");
     }
 }
