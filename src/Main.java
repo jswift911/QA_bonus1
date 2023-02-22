@@ -5,7 +5,7 @@ public class Main {
         //Количество рублей для одной бонусной мили
         int bonus_price = 20;
 
-        int bonus_count = (ticket_price / bonus_price);
+        int bonus_count = ticket_price / bonus_price;
 
         System.out.println("Вым начислен бонус в " + bonus_count + " миль.");
     }
